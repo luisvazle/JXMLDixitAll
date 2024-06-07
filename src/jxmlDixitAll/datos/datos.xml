@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Lista>
-<Término>
-<Clave>Luís Vázquez Lema</Clave>
-<Valor>Creador de esta aplicación.</Valor>
-</Término>
+    <Término>
+        <Clave>Luís Vázquez Lema</Clave>
+        <Valor>Creador de esta aplicación.</Valor>
+    </Término>
+    <Término>
+        <Clave>jxmlDixitAll</Clave>
+        <Valor>Aplicación que está usando ahdora mismo.</Valor>
+    </Término>
 </Lista>
