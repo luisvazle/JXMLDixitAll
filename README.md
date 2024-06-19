@@ -1,51 +1,40 @@
-# jxmlDixitAll
+# JXMLDixitAll
 
-## Resumen
+## Summary
 
-jxmlDixitAll es una aplicación Java con interfaz gráfica de usuario diseñada para gestionar un diccionario de términos y sus definiciones. Proporciona funcionalidades para agregar, modificar, eliminar y consultar términos y sus definiciones asociadas. Es una versión con la capacidad de acceso a datos en ficheros con formato XML, de tal manera que pueda ser importado y exportado fácilmente.
+JXMLDixitAll is a Java application with a graphical user interface designed to manage a dictionary of terms and their definitions. It provides functionalities to add, modify, delete, and consult terms and their associated definitions. It features the capability to access data in XML file format, allowing easy import and export.
 
-## Características
+## Installation
 
-- **Agregar Término y Definición:** Permite agregar fácilmente nuevos términos junto con sus definiciones.
-- **Modificar Término:** Modificar la definición de términos existentes.
-- **Eliminar Término:** Eliminar términos del diccionario.
-- **Consultar Término:** Buscar definiciones de términos específicos.
+To use JXMLDixitAll, you need to have Java installed on your system. Then you can download the source code of this repo and compile it using any Java IDE or compile it directly from the command line.
 
-## Instalación
-
-Para usar jDixitAll, necesitas tener Java instalado en tu sistema. Puedes descargar el código fuente y compilarlo utilizando cualquier IDE de Java o compilarlo directamente desde la línea de comandos.
-
-1. Clona el repositorio:
+1. Clone the repository:
 
    ```bash
-   git clone https://github.com/luisvazle/jxmlDixitAll.git
+   git clone https://github.com/luisvazle/JXMLDixitAll.git
    ```
-2. Compila el código fuente:
+2. Compile the source code:
 
    ```bash
-   javac src/jxmlDixitAll/jxmlDixitAll.java
+   javac src/JXMLDixitAll/JXMLDixitAll.java
    ```
-3. Ejecuta la aplicación:
+3. Run the application:
 
    ```bash
-   java src.jxmlDixitAll.jxmlDixitAll
+   java src.JXMLDixitAll.JXMLDixitAll
    ```
 
-## Uso
+## Usage
 
-Al ejecutar la aplicación, se mostrará una interfaz de usuario gráfica donde puedes realizar varias acciones:
+When you run the application, a graphical user interface will be displayed where you can perform actions described in the action buttons. Its functionality is highly intuitive.
 
-- **Agregar:** Ingresa un término y su definición, luego haz clic en "Guardar" para agregarlo al diccionario.
-- **Modificar:** Ingresa el término cuya definición quieres modificar, actualiza la definición y haz clic en "Modificar".
-- **Eliminar:** Ingresa el término que deseas eliminar y haz clic en "Eliminar".
-- **Consultar:** Ingresa el término que deseas buscar y haz clic en "Consultar" para ver su definición.
+The first time a term is entered, a folder with the file `data.xml` will be created. In any subsequent use, this file will be updated.
 
-La primera vez que se introduzca un término, se creará una carpeta con el archivo `datos.xml`. En cualquier uso posterior, este se actualizará.
+## Author
 
-## Autor
+The author of this programme is Luís Vázquez Lema. You can contact me by sending an email to the following address: <luisvazquezlema@gmail.com>
 
-El autor de este programa es Luís Vázquez Lema. Puedes contactar con el autor enviando un correo electrónico a la siguiente dirección: <luisvazquezlema@gmail.com>
+## Licence
 
-## Licencia
-
-Se adjunta una copia de la licencia  MIT aplicable si clona el repositorio: sería el fichero `LICENSE`. Asimismo, en las primeras líneas comentadas de cada fichero `.java` también podrá visualizar el contenido de la licencia.
+A copy of the MIT licence is included if you clone the repository: it is the `LICENSE` file.
+```
