@@ -4,6 +4,10 @@
 
 JXMLDixitAll is a Java application with a graphical user interface designed to manage a dictionary of terms and their definitions. It provides functionalities to add, modify, delete, and consult terms and their associated definitions. It features the capability to access data in XML file format, allowing easy import and export.
 
+## Demo
+
+[![JXMLDixitAll_video_demo](https://img.youtube.com/vi/8OkPpUZHCUE?si=xjQU5QVhrpFNrkWf/0.jpg)](https://youtu.be/8OkPpUZHCUE?si=xjQU5QVhrpFNrkWf)
+
 ## Installation
 
 To use JXMLDixitAll, you need to have Java installed on your system. Then you can download the source code of this repo and compile it using any Java IDE or compile it directly from the command line.
@@ -16,13 +20,19 @@ To use JXMLDixitAll, you need to have Java installed on your system. Then you ca
 2. Compile the source code:
 
    ```bash
-   javac src/JXMLDixitAll/JXMLDixitAll.java
+   javac -d out src/JXMLDixitAll/JXMLDixitAll.java
+
    ```
+This command compiles the Java source file and places the compiled class files in the `out` directory, preserving the package structure.
+
 3. Run the application:
 
    ```bash
-   java src.JXMLDixitAll.JXMLDixitAll
+   java -cp out JXMLDixitAll.JXMLDixitAll
+
    ```
+
+This command runs the main class of the application from the `out` directory.
 
 ## Usage
 
@@ -37,4 +47,3 @@ The author of this programme is Luís Vázquez Lema. You can contact me by sendi
 ## Licence
 
 A copy of the MIT licence is included if you clone the repository: it is the `LICENSE` file.
-```
